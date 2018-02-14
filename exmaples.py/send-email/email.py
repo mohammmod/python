@@ -34,8 +34,8 @@ import smtplib
 
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls()
-server.login("boooooo.2018@gmail.com", "adgjmpw12345")
+server.login("useremail", "password")
 
 msg = "this is just my first python massge !"
-server.sendmail("boooooo.2018@gmail.com", "mohammad.sawas2016@gmail.com", msg)
+server.sendmail("from whom", "to whoem", msg)
 server.quit()
