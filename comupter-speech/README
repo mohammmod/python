@@ -1,3 +1,0 @@
-this is how to generate voice using python but I assume that it will not work on your computer
-so a good idea is to download a library called gTTs from your terminal using this line of code 
-(sodo pip install gTTs.) and also you have to install this as well  (sodo apt-get install mpg321)
