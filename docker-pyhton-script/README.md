@@ -9,5 +9,6 @@
     <li>RUN pip install pystrich
     <li>CMD [ "python", "./your_script.py" ] 
   </ol>
- 
+<li> run the command `docker build . -t image-name` example :`docker build . -t hello`
+<li> run the image using `docker run image name`
 </ul>
